@@ -32,7 +32,7 @@ height=400
 
 ).interactive()
 st.altair_chart(bargraph)
-st.write('Above graphs show the comparison of teams performance in revenue collection.')
+
 bargraph=alt.Chart(df).mark_bar().encode(
     x='TEAMS',
     y='TOTAL',
